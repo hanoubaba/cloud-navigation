@@ -18,17 +18,17 @@ export default {
     msg: String,
   },
   methods: {
-    goUrl(n){
-      if(n == 0){
-        window.open('http://10.0.66.108:9090/')
+    goUrl(n) {
+      if (n == 0) {
+        window.open("http://10.0.66.108:9090/");
       }
-      if(n == 1){
-        window.open('http://10.0.66.108:8090/')
+      if (n == 1) {
+        window.open("http://10.0.66.108:8090/");
       }
-      if(n == 2){
-        window.open('http://10.0.66.108:9099/')
+      if (n == 2) {
+        window.open("http://10.0.66.108:9099/");
       }
-    }
+    },
   },
 };
 </script>
@@ -49,13 +49,16 @@ export default {
   margin: 0 10px;
   cursor: pointer;
 }
-.item1{
-   background-image: url("../assets/item1.png");
+.item:hover {
+  transform: scale(1.1, 1.1);
 }
-.item2{
-   background-image: url("../assets/item2.png");
+.item1 {
+  background-image: url("../assets/item1.png");
 }
-.item3{
-   background-image: url("../assets/item3.png");
+.item2 {
+  background-image: url("../assets/item2.png");
+}
+.item3 {
+  background-image: url("../assets/item3.png");
 }
 </style>
